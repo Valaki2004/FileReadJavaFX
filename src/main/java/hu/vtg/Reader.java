@@ -32,8 +32,5 @@ public class Reader {
             System.err.println(e.getMessage());
         }
                 return null;
-               
-                
-    
     }
 }

@@ -3,9 +3,9 @@ package hu.vtg;
 import java.time.LocalDate;
 
 public class Termes {
-    
+
     Integer id;
-    String nev;
+    String Nev;
     String Dulo;
     Integer Mennyiseg;
     LocalDate BetakaritasVege;
@@ -14,14 +14,14 @@ public class Termes {
 
     public Termes(Integer id, String nev, String dulo, Integer mennyiseg, LocalDate betakaritasVege) {
         this.id = id;
-        this.nev = nev;
+        this.Nev = nev;
         Dulo = dulo;
         Mennyiseg = mennyiseg;
         BetakaritasVege = betakaritasVege;
     }
 
     public Termes(String nev, String dulo, Integer mennyiseg, LocalDate betakaritasVege) {
-        this.nev = nev;
+        this.Nev = nev;
         Dulo = dulo;
         Mennyiseg = mennyiseg;
         BetakaritasVege = betakaritasVege;
@@ -36,11 +36,11 @@ public class Termes {
     }
 
     public String getNev() {
-        return nev;
+        return Nev;
     }
 
     public void setNev(String nev) {
-        this.nev = nev;
+        this.Nev = nev;
     }
 
     public String getDulo() {
